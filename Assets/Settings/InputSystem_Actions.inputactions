@@ -990,7 +990,75 @@
                     "isPartOfComposite": false
                 }
             ]
-        }
+        },
+{
+    "name":  "FarmInteraction",
+    "id":  "28a14d28-dcab-4afc-a39b-8a6814fd5d8d",
+    "actions":  [
+                    {
+                        "name":  "Inspect",
+                        "type":  "Button",
+                        "id":  "ce29667f-0c8e-4ef5-b42b-9d5c64753b18",
+                        "expectedControlType":  "Button",
+                        "processors":  "",
+                        "interactions":  "",
+                        "initialStateCheck":  false
+                    },
+                    {
+                        "name":  "Door",
+                        "type":  "Button",
+                        "id":  "477bbd07-3a23-4f6c-8663-f68a92bd7724",
+                        "expectedControlType":  "Button",
+                        "processors":  "",
+                        "interactions":  "",
+                        "initialStateCheck":  false
+                    },
+                    {
+                        "name":  "Close",
+                        "type":  "Button",
+                        "id":  "47b89f4f-77b5-43ab-abbf-cc784832240b",
+                        "expectedControlType":  "Button",
+                        "processors":  "",
+                        "interactions":  "",
+                        "initialStateCheck":  false
+                    }
+                ],
+    "bindings":  [
+                     {
+                         "name":  "",
+                         "id":  "40593b01-1196-4f8d-823b-597aa4d831e3",
+                         "path":  "\u003cKeyboard\u003e/e",
+                         "interactions":  "",
+                         "processors":  "",
+                         "groups":  "Keyboard\u0026Mouse",
+                         "action":  "Inspect",
+                         "isComposite":  false,
+                         "isPartOfComposite":  false
+                     },
+                     {
+                         "name":  "",
+                         "id":  "1e3d6e82-2cc2-430c-9f59-70c4de365cbc",
+                         "path":  "\u003cKeyboard\u003e/f",
+                         "interactions":  "",
+                         "processors":  "",
+                         "groups":  "Keyboard\u0026Mouse",
+                         "action":  "Door",
+                         "isComposite":  false,
+                         "isPartOfComposite":  false
+                     },
+                     {
+                         "name":  "",
+                         "id":  "14a60816-84a0-4147-97b9-5b20ddfae1a2",
+                         "path":  "\u003cKeyboard\u003e/escape",
+                         "interactions":  "",
+                         "processors":  "",
+                         "groups":  "Keyboard\u0026Mouse",
+                         "action":  "Close",
+                         "isComposite":  false,
+                         "isPartOfComposite":  false
+                     }
+                 ]
+}
     ],
     "controlSchemes": [
         {
