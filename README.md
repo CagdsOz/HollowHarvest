@@ -2,6 +2,12 @@
 
 A top-down pixel-art farming horror prototype using Unity 6000.5.5f1 and Universal 2D (URP).
 
+## Sprint 3: cow care
+
+Run **HollowHarvest > Upgrade Cow Care (Sprint 3)** once to add Feed, Pet, and Milk buttons to the existing cow panel and a milk HUD. Feed/Pet use in-game cooldowns; each cow can be milked once per day. Hunger, stress, health, and the displayed condition now respond to care and elapsed game time.
+
+See [cow care setup, balancing, and tests](Docs/CowCare.md) for exact Editor steps and a practical test sequence. The older sprint guides below describe their original milestones; Sprint 3 replaces their stat/behavior rules.
+
 ## Cow interaction and buildings
 
 After importing the scripts, run **HollowHarvest > Add Cow and Building Interactions** to extend the existing farm. Approach the cow in the southeast pasture and press **E**; close its status panel with **Escape** or the Close button. Approach the south door of the farmhouse or barn and press **F** to enter; use **F** at the indoor exit to return.
